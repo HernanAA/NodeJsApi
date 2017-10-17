@@ -15,8 +15,9 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 app.post('/hotels', (req, res) => {
+  const {name, stars, location, price, images} = req.body;
   var hotel = new Hotel({
-    text: req.body.text
+    name, stars, location, price, images
   });
 
   hotel.save().then((doc) => {
