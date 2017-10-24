@@ -15,9 +15,9 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 app.post('/hotels', (req, res) => {
-  const {name, stars, location, price, images} = req.body;
+  const {name, stars, price, detail} = req.body;
   var hotel = new Hotel({
-    name, stars, location, price, images
+    name, stars, price, detail
   });
 
   hotel.save().then((doc) => {
@@ -28,7 +28,15 @@ app.post('/hotels', (req, res) => {
 });
 
 app.get('/hotels', (req, res) => {
-  Hotel.find().then((hotels) => {
+  Hotel.find().then((list) => {
+    var hotels = list.reduce(
+      (acum, item) => {
+        const {_id, name, price, stars, detail} = item;
+        const image = detail.images[0]
+        const hotel = {_id, name, price, stars, image}
+        return [...acum, hotel ];
+      },[]);
+      
     res.send({hotels});
   }, (e) => {
     res.status(400).send(e);

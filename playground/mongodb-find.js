@@ -22,9 +22,4 @@ MongoClient.connect('mongodb://localhost:27017/Almundo', (err, db) => {
   //   console.log('Unable to fetch Hotels', err);
   // });
 
-  db.collection('Users').find({name: 'Andrew'}).toArray().then((docs) => {
-    console.log(JSON.stringify(docs, undefined, 2));
-  });
-
-  // db.close();
 });

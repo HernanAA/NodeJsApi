@@ -7,28 +7,11 @@ MongoClient.connect('mongodb://localhost:27017/Almundo', (err, db) => {
   }
   console.log('Connected to MongoDB server');
 
-  // deleteMany
-  // db.collection('Hotels').deleteMany({text: 'Eat lunch'}).then((result) => {
-  //   console.log(result);
-  // });
-
-  // deleteOne
-  // db.collection('Hotels').deleteOne({text: 'Eat lunch'}).then((result) => {
-  //   console.log(result);
-  // });
-
-  // findOneAndDelete
-  // db.collection('Hotels').findOneAndDelete({completed: false}).then((result) => {
-  //   console.log(result);
-  // });
-
-  // db.collection('Users').deleteMany({name: 'Andrew'});
-
-  db.collection('Users').findOneAndDelete({
+  db.collection('Hotels').findOneAndDelete({
     _id: new ObjectID("57ac8d47878a299e5dc21bc8")
   }).then((results) => {
     console.log(JSON.stringify(results, undefined, 2));
   });
 
-  // db.close();
+  
 });

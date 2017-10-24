@@ -11,7 +11,7 @@ MongoClient.connect('mongodb://localhost:27017/Almundo', (err, db) => {
   //   _id: new ObjectID('57bc4b15b3b6a3801d8c47a2')
   // }, {
   //   $set: {
-  //     completed: true
+  //     name: "newName"
   //   }
   // }, {
   //   returnOriginal: false
@@ -19,20 +19,6 @@ MongoClient.connect('mongodb://localhost:27017/Almundo', (err, db) => {
   //   console.log(result);
   // });
 
-  db.collection('Users').findOneAndUpdate({
-    _id: new ObjectID('57abbcf4fd13a094e481cf2c')
-  }, {
-    $set: {
-      name: 'Andrew'
-    },
-    $inc: {
-      age: 1
-    }
-  }, {
-    returnOriginal: false
-  }).then((result) => {
-    console.log(result);
-  });
 
   // db.close();
 });
