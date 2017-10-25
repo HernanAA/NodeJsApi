@@ -12,7 +12,12 @@ Dentro de pantalla donde se desea realizar la instalación, ejecutar los siguien
 
 **cd NodeJsApi**
 
+En la carpeta donde esta el ejecutable mongod.exe (default para windows: C:\Program Files\MongoDB\Server\3.4\bin>)
 **mongod.exe --dbpath RUTA-A-LA-BD**
+
+Luego en otra consola, dentro de la carpeta NodeJsApi, ejecutar las siguientes lineas:
+
+**npm install**
 
 **node server/server.js**
 
