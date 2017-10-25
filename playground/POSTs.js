@@ -4,10 +4,10 @@
 	"price": 1461,
 	"detail":{
 	  	"address": "Carrer de Ferran, 40-42, Barcelona",
-	  	 "images": ["http://images.almundo.com/201/1000000/50000/48900/48852/48852_56_b.jpg",
-	      "http://images.almundo.com/201/1000000/50000/48900/48852/48852_47_b.jpg",
-	      "http://images.almundo.com/201/1000000/50000/48900/48852/48852_50_b.jpg",
-	      "http://images.almundo.com/201/1000000/50000/48900/48852/48852_52_b.jpg" ],
+	  	 "images": ["https://images.almundo.com/201/1000000/50000/48900/48852/48852_56_b.jpg",
+	      "https://images.almundo.com/201/1000000/50000/48900/48852/48852_47_b.jpg",
+	      "https://images.almundo.com/201/1000000/50000/48900/48852/48852_50_b.jpg",
+	      "https://images.almundo.com/201/1000000/50000/48900/48852/48852_52_b.jpg" ],
 		"coordinates":{
 			"latitude": "41.38195781399147",
 			"longitude": "2.1763343999999734"
@@ -42,12 +42,12 @@
 	"price": 1564,
 	"detail":{
 	  	"address": "Carrer de Viladomat, 197, Barcelona",
-	  	 "images": ["http://images.almundo.com/201/1000000/670000/660200/660111/2b1d89a0_b.jpg",
-					"http://images.almundo.com/201/1000000/670000/660200/660111/660111_38_b.jpg",
+	  	 "images": ["https://images.almundo.com/201/1000000/670000/660200/660111/2b1d89a0_b.jpg",
+					"https://images.almundo.com/201/1000000/670000/660200/660111/660111_38_b.jpg",
 					"https://images.almundo.com/201/1000000/670000/660200/660111/68ce9d4c_b.jpg",
 					"https://images.almundo.com/201/1000000/670000/660200/660111/660111_54_b.jpg",
 					"https://images.almundo.com/201/1000000/670000/660200/660111/d78a62a8_b.jpg",
-					"http://images.almundo.com/201/1000000/670000/660200/660111/3fd5e4c3_b.jpg"],
+					"https://images.almundo.com/201/1000000/670000/660200/660111/3fd5e4c3_b.jpg"],
 		"coordinates":{
 			"latitude": "41.384364646410795",
 			"longitude": "2.152564574343825"
@@ -309,7 +309,7 @@
 	"price": 1625,
 	"detail":{
 	  	"address": "Carrer de Paris 101, Barcelona",
-	  	 "images": ["http://images.almundo.com/201/1000000/50000/48900/48852/48852_50_b.jpg",
+	  	 "images": ["https://images.almundo.com/201/1000000/50000/48900/48852/48852_50_b.jpg",
 					"https://images.almundo.com/201/2000000/1180000/1170100/1170099/1170099_56_b.jpg",
 					"https://images.almundo.com/201/2000000/1180000/1170100/1170099/1170099_54_b.jpg"],
 		"coordinates":{
