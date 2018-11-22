@@ -1,7 +1,7 @@
 NodeJs Api
 ===================
 
-Api realizada en **nodeJs**. El objetivo es evidenciar los conocimientos en el uso de dicha tecnología. Para realizar esta api se utilizarón también las siguientes tecnologías: **mongoDb y mongosee**
+Api realizada en **nodeJs**. El objetivo es mostrar brevemente el uso de dicha tecnología. Para realizar esta api se utilizarón también las siguientes tecnologías: **mongoDb y mongosee**
 
 ----------
 Ejecutar servicio localmente
